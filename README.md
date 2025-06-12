@@ -1,15 +1,29 @@
-Weather Data Fetcher (OpenWeatherMap API)
-A lightweight Python script that retrieves the current weather conditions (temperature, description, weather type, and icon) for any given city using the OpenWeatherMap API.
+# 🌤️ Weather Data Fetcher (OpenWeatherMap API)
+A lightweight and structured Python script that retrieves current weather conditions for any city using the OpenWeatherMap API. It includes geocoding support to convert city/state/country into coordinates and returns detailed weather information.
 
-Features
-- Convert city + state + country into coordinates using OpenWeatherMap Geocoding API
-- Fetch current weather data using OpenWeatherMap Current Weather API
-- Returns main weather type, detailed description, temperature (°C), and icon code
-- Clean and well-structured using @dataclass for the weather object
+## ✅ Features
+📍 Geocoding Support
+Converts city, state, and country into latitude and longitude using OpenWeatherMap's Geocoding API.
 
-Technologies Used
-- Python 
-- requests – for HTTP requests
-- dataclasses – for structured weather data
-- python-dotenv – for managing your API key securely
+## 🌡️ Current Weather Data
+Fetches:
+- Main weather type (e.g., Rain, Clear)
+- Detailed description (e.g., light rain)
+- Temperature in Celsius
+- Weather icon code
 
+## 🧩 Structured Output
+- Uses Python @dataclass for clean and structured weather data modeling.
+
+## 🧰 Technologies Used
+- Tool	Purpose
+- Python	Core language
+- requests	HTTP requests to OpenWeatherMap
+- dataclasses	Structuring weather data
+- python-dotenv	Secure API key management
+
+## 🛠 Future Enhancements
+- Add weather forecast (5-day)
+- CLI or GUI interface
+- Weather alerts (if supported by API)
+- Unit tests
