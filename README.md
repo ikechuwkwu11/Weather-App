@@ -16,11 +16,22 @@ Fetches:
 - Uses Python @dataclass for clean and structured weather data modeling.
 
 ## 🧰 Technologies Used
-- Tool	Purpose
-- Python	Core language
-- requests	HTTP requests to OpenWeatherMap
-- dataclasses	Structuring weather data
-- python-dotenv	Secure API key management
+| Tool          | Purpose                            |
+| ------------- | ---------------------------------- |
+| Python        | Core language                      |
+| requests      | For making HTTP API requests       |
+| dataclasses   | Structured and typed data modeling |
+| python-dotenv | Secure API key management          |
+
+## 🔍 Example Output
+{
+  "city": "London",
+  "temperature_celsius": 17.3,
+  "main": "Clouds",
+  "description": "overcast clouds",
+  "icon": "04d"
+}
+
 
 ## 🛠 Future Enhancements
 - Add weather forecast (5-day)
